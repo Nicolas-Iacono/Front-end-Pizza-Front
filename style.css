@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+main{
+    display: flex;
+    padding: 3rem 1.5rem;
+    width: 100vw;
+    height: 70vh;
+    background-color: #f4f4f4;
+    gap:0.5rem;
+    
+}
+.header{
+    color: white;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    padding: 0 1rem;
+    height: 8rem;
+    justify-content: space-between;
+    align-items: center;
+box-shadow: 0px 44px 13px 5px rgba(0,0,0,0.5);
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.lista{
+    display: flex;
+    gap: 1rem;
+    font-size: 1.3rem;
+    list-style: none;
+}
+
+
+.containerImg{
+    background-image: url(img/delivery.jpg);
+    width: 50%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 2rem 2rem;
+    font-size: 1.3rem;
+    border-radius: 10px;
+}
+
+.containerInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+    background-color: white;
+    border-radius: 10px;
+
+}
+.infoTitulo{
+    font-size: 1.5rem;
+}
+.infoPodio{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    font-size: 1.4rem;
+    height: 12rem;
+
+}
+
+.tituloPodio{
+    margin-bottom: 1.3rem;
+}
+ol{
+    display: flex;
+    flex-direction: column;
+    gap:0.5rem;
+}
+
+.rojo{
+    color:#FC200C;
+}
+
+.verde{
+    color:#39B24A;
+}
+.footer{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 0 1rem;
+    align-items: center;
+    color:white;
+    background-color: black;
+}
+
+.F{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0;
+}
